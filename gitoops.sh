@@ -7,7 +7,7 @@ echo -e "$(tput bold)███████╗██╗   ██╗ ████�
 ██║     ╚██████╔╝╚██████╗██║  ██╗██╗
 ╚═╝      ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝"
 echo -e "$(tput sgr0)"
-printf "😵  Looks like you committed something you shouldn't have!"
+printf "😵  You added the node_modules directory again didnt you?"
 printf "\n"
 printf "File to be removed from Git history: "
 read filelocation
